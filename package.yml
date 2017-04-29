@@ -1,0 +1,17 @@
+name       : setuptools_scm
+version    : 1.15.5
+release    : 1
+source     :
+    - https://pypi.python.org/packages/03/ac/dbb718dd284d41164ceeb3e3d007a1b2b15a688582076833f3fca67ae313/setuptools_scm-1.15.5.tar.gz : 145b2a8a609e0fd66108a92a06fe62d0fb329c0eb944f2d5c7ae3ca24222f29e
+license    : MIT
+component  : programming.python
+summary    : The blessed package to manage your versions by scm tags
+description: |
+    Add SCM version support to setuptools
+builddeps  :
+    - pkgconfig(python-2.7)
+    - python-setuptools
+setup      : |
+    %python_setup
+install    : |
+    %python_install

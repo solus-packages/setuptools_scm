@@ -1,0 +1,57 @@
+<PISI>
+    <Source>
+        <Name>setuptools_scm</Name>
+        <Packager>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">The blessed package to manage your versions by scm tags</Summary>
+        <Description xml:lang="en">Add SCM version support to setuptools
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>setuptools_scm</Name>
+        <Summary xml:lang="en">The blessed package to manage your versions by scm tags</Summary>
+        <Description xml:lang="en">Add SCM version support to setuptools
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm-1.15.5-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm-1.15.5-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm-1.15.5-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm-1.15.5-py2.7.egg-info/entry_points.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm-1.15.5-py2.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm-1.15.5-py2.7.egg-info/zip-safe</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm/__main__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm/__main__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm/discover.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm/discover.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm/git.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm/git.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm/hacks.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm/hacks.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm/hg.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm/hg.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm/integration.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm/integration.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm/utils.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm/utils.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm/version.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/setuptools_scm/version.pyc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-04-29</Date>
+            <Version>1.15.5</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
